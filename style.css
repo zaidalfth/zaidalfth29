@@ -1,0 +1,237 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Content Styles */
+.content {
+    text-align: center; 
+    padding: 20px;
+}
+
+.content h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content h5 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Main Section Styles */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 50px;
+}
+.background-img {
+    background-image: url('asset/foto1.jpeg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+/* About Section Styles */
+.about {
+    padding: 20px 0;
+}
+
+.about-text {
+    margin-top: 0px;
+}
+
+.about-text h4 {
+    font-size: 24px;
+}
+
+.about-text h3 {
+    font-size: 24px;
+}
+
+.about-text p {
+    margin-bottom: 40px;
+}
+
+.about-text img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img {
+    width: 400px;
+    height: auto; /* Mengatur tinggi agar proporsi gambar tetap terjaga */
+    margin: 50px;
+    float: left; /* Mengambang gambar di sebelah kiri */
+}
+
+#gambar1 {
+    width: 400px;
+    height: auto;
+    margin: 50px;
+    float: right; /* Mengambang gambar di sebelah kanan */
+}
+
+#gambar2 {
+    width: 400px;
+    height: auto;
+    position: absolute; /* Mengatur posisi absolut */
+    top: 100px;
+    left: 50px;
+}
+
+
+.about-text button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.about-text button:hover {
+    background-color: #555;
+}
+
+/* Service Section Styles */
+.service {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.service h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 330px;
+    padding: 40px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+.card i {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.card h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card .pra {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card .button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.card .button:hover {
+    background-color: #555;
+}
+
+/* Contact Me Section Styles */
+.contact-me {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-me p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-me .button-two {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.contact-me .button-two:hover {
+    background-color: #f9f9f9;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer p {
+    font-size: 12px;
+    margin-bottom: 14px;
+}
+
+/*.social a {
+    margin: 0 10px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}*/
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social a img {
+    width: 30px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+    height: auto;
+}
+
+.social a i {
+    font-size: 30px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+}
+
+
+.end {
+    margin-top: 30px;
+}
